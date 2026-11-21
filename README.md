@@ -1,10 +1,10 @@
-# LucreShop Campanhas
+# LucreShop
 
-Use sua conta do LucreShop no Claude para escolher ofertas, revisar a fila e acompanhar importações nas campanhas do projeto autorizado.
+Campanhas é o primeiro módulo do LucreShop para Claude. Use sua conta do LucreShop para escolher ofertas, revisar a fila e acompanhar importações nas campanhas do projeto autorizado.
 
 ## Conectar
 
-No Claude Desktop, abra a área de plugins e carregue o arquivo do plugin pela opção de upload. Para testar a pasta descompactada no Claude Code, execute `claude --plugin-dir ./lucreshop-campanhas`.
+No Claude Desktop, baixe o pacote para Claude e siga as instruções de instalação do guia. Para testar este repositório no Claude Code, execute `claude --plugin-dir ./lucreshop-campanhas` a partir da pasta que contém o repositório. [Guia de instalação](https://app.lucreshop.com.br/downloads/campanhas/guia.html)
 
 Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as permissões. Ative **Ofertas dos marketplaces** para preparar prévias e importar as ofertas escolhidas. Para desfazer um lote, a conexão também precisa de **Limpeza de fila**. Você pode consultar ou revogar o acesso no painel do LucreShop. [Conexões de IA](https://app.lucreshop.com.br/settings/conexoes-ia)
 
@@ -18,4 +18,4 @@ A Magalu utiliza ofertas observadas no navegador do usuário. Para uma nova busc
 
 ## Se a conexão pedir atenção
 
-Se o projeto esperado não aparecer, confira qual projeto foi autorizado em **Conexões de IA**. Se a autorização terminar em erro, registre o horário e o nome da ferramenta para que o suporte identifique o pedido. [Suporte LucreShop](https://lucreshop.com.br/sobre-a-lucreshop#faq)
+Se o projeto esperado não aparecer, confira qual projeto foi autorizado em **Conexões de IA**. Se a autorização terminar em erro, registre o horário e o nome da ferramenta para que o suporte identifique o pedido. [Suporte LucreShop](https://app.lucreshop.com.br/downloads/campanhas/guia.html#suporte)

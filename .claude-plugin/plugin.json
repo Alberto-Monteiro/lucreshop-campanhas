@@ -8,10 +8,10 @@
     "email": "suporte@lucreshop.com.br",
     "url": "https://lucreshop.com.br"
   },
-  "homepage": "https://app.lucreshop.com.br/settings/conexoes-ia",
+  "homepage": "https://app.lucreshop.com.br/downloads/campanhas/guia.html",
   "icon": "./logo.png",
-  "documentationUrl": "https://app.lucreshop.com.br/settings/conexoes-ia",
-  "supportUrl": "https://lucreshop.com.br/sobre-a-lucreshop#faq",
+  "documentationUrl": "https://app.lucreshop.com.br/downloads/campanhas/guia.html",
+  "supportUrl": "https://app.lucreshop.com.br/downloads/campanhas/guia.html#suporte",
   "privacyPolicyUrl": "https://lucreshop.com.br/politica-de-privacidade",
   "termsOfServiceUrl": "https://lucreshop.com.br/termos-de-uso"
 }

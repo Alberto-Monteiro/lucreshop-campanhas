@@ -1,0 +1,17 @@
+{
+  "name": "lucreshop-campanhas",
+  "displayName": "LucreShop Campanhas",
+  "version": "0.1.0",
+  "description": "Escolha ofertas de marketplaces, revise a fila de campanhas do LucreShop e confira ou desfaça uma importação.",
+  "author": {
+    "name": "LucreShop",
+    "email": "suporte@lucreshop.com.br",
+    "url": "https://lucreshop.com.br"
+  },
+  "homepage": "https://app.lucreshop.com.br/settings/conexoes-ia",
+  "icon": "./logo.png",
+  "documentationUrl": "https://app.lucreshop.com.br/settings/conexoes-ia",
+  "supportUrl": "https://lucreshop.com.br/sobre-a-lucreshop#faq",
+  "privacyPolicyUrl": "https://lucreshop.com.br/politica-de-privacidade",
+  "termsOfServiceUrl": "https://lucreshop.com.br/termos-de-uso"
+}

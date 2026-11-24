@@ -1,8 +1,8 @@
 {
   "name": "lucreshop-campanhas",
   "displayName": "LucreShop",
-  "version": "0.1.2",
-  "description": "Escolha ofertas de marketplaces, revise a fila de campanhas do LucreShop e confira ou desfaça uma importação.",
+  "version": "0.1.3",
+  "description": "Selecione ofertas, revise a fila de campanhas e prepare fotos com um novo cenário para aprovação no LucreShop.",
   "author": {
     "name": "LucreShop",
     "email": "suporte@lucreshop.com.br",

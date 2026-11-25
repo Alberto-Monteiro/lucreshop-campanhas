@@ -1,0 +1,11 @@
+{
+  "name": "lucreshop-campanhas",
+  "displayName": "LucreShop",
+  "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+  "version": "0.1.4",
+  "suggestedPrompts": [
+    "Liste as campanhas do projeto que autorizei.",
+    "Mostre a fila da minha campanha pausada.",
+    "Quero escolher ofertas de uma prévia para minha campanha."
+  ]
+}

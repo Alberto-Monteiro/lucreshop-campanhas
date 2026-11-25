@@ -13,6 +13,24 @@ No Claude Code, adicione o marketplace do LucreShop e instale o plugin:
 /plugin install lucreshop-campanhas@lucreshop
 ```
 
+No Codex, adicione o marketplace e instale **LucreShop** em `/plugins`:
+
+```
+codex plugin marketplace add Alberto-Monteiro/lucreshop-campanhas
+```
+
+No Gemini CLI, instale a extensão e entre com `/mcp auth lucreshop`:
+
+```
+gemini extensions install https://github.com/Alberto-Monteiro/lucreshop-campanhas
+```
+
+No Antigravity CLI, instale o plugin e autentique o servidor do LucreShop em `/mcp`:
+
+```
+agy plugin install https://github.com/Alberto-Monteiro/lucreshop-campanhas
+```
+
 Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as permissões. Ative **Ofertas dos marketplaces** para preparar prévias e importar as ofertas escolhidas. Para desfazer um lote, a conexão também precisa de **Limpeza de fila**. Você pode consultar ou revogar o acesso no painel do LucreShop. [Conexões de IA](https://app.lucreshop.com.br/settings/conexoes-ia)
 
 ## Pedidos para experimentar

@@ -1,0 +1,21 @@
+{
+  "name": "lucreshop",
+  "interface": {
+    "displayName": "LucreShop"
+  },
+  "plugins": [
+    {
+      "name": "lucreshop-campanhas",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Alberto-Monteiro/lucreshop-campanhas.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

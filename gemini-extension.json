@@ -1,0 +1,10 @@
+{
+  "name": "lucreshop-campanhas",
+  "version": "0.1.4",
+  "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+  "mcpServers": {
+    "lucreshop": {
+      "httpUrl": "https://api-lucreshop.rocksti.com.br/mcp"
+    }
+  }
+}

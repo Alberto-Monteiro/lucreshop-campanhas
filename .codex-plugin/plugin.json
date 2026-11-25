@@ -1,0 +1,92 @@
+{
+  "name": "lucreshop-campanhas",
+  "version": "0.1.4",
+  "description": "Selecione ofertas de marketplaces e gerencie a fila de campanhas do seu projeto LucreShop.",
+  "author": {
+    "name": "LucreShop",
+    "email": "suporte@lucreshop.com.br",
+    "url": "https://lucreshop.com.br"
+  },
+  "homepage": "https://lucreshop.com.br",
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json",
+  "interface": {
+    "displayName": "LucreShop",
+    "shortDescription": "Gerencie sua fila de campanhas",
+    "longDescription": "Para usuários do LucreShop que administram campanhas de ofertas. Entre no LucreShop e escolha o projeto e as permissões. Busque ofertas da Magalu na vitrine Magazine Você do perfil. Filtre ofertas, personalize mensagens e confira a prévia antes de importar. Veja o recibo e acompanhe a fila. Revise os itens antes de excluir ou reenviar. Use sua ferramenta de imagem para ambientar a foto do produto ou mostre e confirme uma imagem escolhida para substituir a foto na prévia ou na fila.",
+    "developerName": "LucreShop",
+    "category": "Productivity",
+    "capabilities": [
+      "Selecionar ofertas",
+      "Revisar a fila",
+      "Conferir importações"
+    ],
+    "websiteURL": "https://lucreshop.com.br",
+    "supportURL": "https://lucreshop.com.br/sobre-a-lucreshop",
+    "privacyPolicyURL": "https://lucreshop.com.br/politica-de-privacidade",
+    "termsOfServiceURL": "https://lucreshop.com.br/termos-de-uso",
+    "logo": "./logo.png",
+    "composerIcon": "./logo.png",
+    "defaultPrompt": [
+      "Liste as campanhas do projeto que autorizei.",
+      "Mostre a fila da minha campanha pausada.",
+      "Quero escolher ofertas de uma prévia para minha campanha."
+    ]
+  },
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Listar campanhas do projeto autorizado",
+              "prompt": "Liste as campanhas do meu projeto e informe quais estão pausadas.",
+              "tools_triggered": "listar_campanhas",
+              "expected_behavior": "Exibe os nomes e estados das campanhas do projeto autorizado ou informa que a lista está vazia."
+            },
+            {
+              "description": "Consultar o início da fila",
+              "prompt": "Mostre os primeiros cinco itens da fila da minha campanha pausada. Se houver mais de uma campanha pausada, deixe que eu escolha.",
+              "tools_triggered": "listar_campanhas, consultar_fila",
+              "expected_behavior": "Resolve a campanha, aguarda a desambiguação quando necessária e apresenta a ordem e o estado dos itens da fila. A campanha permanece pausada."
+            },
+            {
+              "description": "Examinar a oferta antes de incluí-la",
+              "prompt": "Na campanha Vitrine de demonstração, abra a prévia Magalu 51b0f54e-5b95-4b49-8df2-4da21d7fd4af. Mostre as ofertas numeradas e a mensagem da primeira. Aguarde minha escolha.",
+              "tools_triggered": "listar_campanhas, consultar_previa_magalu, visualizar_mensagem_oferta",
+              "expected_behavior": "Apresenta as ofertas salvas e a mensagem correspondente à primeira, com preço, vendedor e link conforme a política da campanha. A fila permanece igual."
+            },
+            {
+              "description": "Importar a seleção aprovada e repetir o pedido",
+              "prompt": "Na campanha Vitrine de demonstração, abra a prévia Magalu 51b0f54e-5b95-4b49-8df2-4da21d7fd4af. Consulte a fila e mostre quais ofertas ainda posso adicionar. Aguarde minha escolha. Após minha confirmação, importe a oferta escolhida e repita o pedido com os mesmos IDs para conferir se duplicou.",
+              "tools_triggered": "listar_campanhas, consultar_previa_magalu, consultar_fila, importar_selecao_magalu",
+              "expected_behavior": "Espera a confirmação em outra mensagem e preserva prévia, seleção, vendedor e identificador do pedido. Compara os IDs da fila antes e depois da repetição. Com os mesmos IDs, informa a quantidade adicionada no pedido original e zero novas inclusões na repetição."
+            },
+            {
+              "description": "Revisar o impacto de limpar a fila antes de confirmar",
+              "prompt": "Na minha campanha pausada, confira quantas ofertas pendentes e agendadas seriam retiradas se eu limpasse os pendentes. Quero apenas ver a prévia.",
+              "tools_triggered": "listar_campanhas, preparar_limpeza_fila",
+              "expected_behavior": "Mostra a contagem por estado e o total da prévia. Preserva a fila e mantém a campanha pausada."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Compra e pagamento de produto",
+              "prompt": "Compre este produto no marketplace usando meu cartão."
+            },
+            {
+              "description": "Criação de anúncio pago",
+              "prompt": "Crie uma campanha de anúncios pagos no Google Ads com orçamento diário de cinquenta reais."
+            },
+            {
+              "description": "Pergunta de culinária sem relação com o LucreShop",
+              "prompt": "Quais são os ingredientes de um bolo de cenoura?"
+            }
+          ]
+        },
+        "commerce": true,
+        "commerce_description": "O LucreShop gerencia campanhas de ofertas de marketplaces. As mensagens do projeto podem incluir links de afiliado. A compra e o pagamento de produtos ocorrem fora do plugin."
+      }
+    }
+  }
+}

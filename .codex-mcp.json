@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "lucreshop": {
+      "url": "https://api-lucreshop.rocksti.com.br/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            }
+          }
+        }
+      }
+    }
+  }
+}

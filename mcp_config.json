@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "lucreshop": {
+      "serverUrl": "https://api-lucreshop.rocksti.com.br/mcp"
+    }
+  }
+}

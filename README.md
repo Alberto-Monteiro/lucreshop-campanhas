@@ -43,7 +43,7 @@ Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as 
 - “Prepare a ambientação da foto do item que escolhi. Gere somente o cenário com minha ferramenta de imagem e abra a comparação no LucreShop.”
 - “Mostre a foto atual e esta nova imagem lado a lado. Aguarde minha aprovação antes de trocar a foto.”
 
-A busca da Magalu consulta a vitrine Magazine Você do projeto. Se houver verificação de acesso ou faltarem produtos, a prévia também aceita ofertas observadas no navegador. Uma prévia já salva pode ser consultada em outro chat pelo identificador.
+A busca da Magalu consulta a vitrine Magazine Você do projeto. Se faltarem produtos, a prévia também aceita anúncios que você abriu no seu navegador. Uma prévia já salva pode ser consultada em outro chat pelo identificador.
 
 Para ambientar a foto, use uma ferramenta de imagem disponível na sua conta ou selecione um cenário que você já criou. O navegador compõe o recorte da foto atual com o cenário e mostra as duas versões. A imagem entra no item da fila quando você aprova no painel autenticado.
 

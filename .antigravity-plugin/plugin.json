@@ -2,7 +2,7 @@
   "name": "lucreshop",
   "displayName": "LucreShop",
   "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas, revisar a fila das campanhas e escolher as fotos das prévias e dos itens.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "suggestedPrompts": [
     "Liste as campanhas do projeto que autorizei.",
     "Mostre a fila da minha campanha pausada.",

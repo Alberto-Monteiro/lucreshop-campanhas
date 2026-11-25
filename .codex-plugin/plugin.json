@@ -1,6 +1,6 @@
 {
   "name": "lucreshop",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas de marketplaces e gerenciar a fila das campanhas.",
   "author": {
     "name": "LucreShop",
@@ -12,8 +12,8 @@
   "mcpServers": "./.codex-mcp.json",
   "interface": {
     "displayName": "LucreShop",
-    "shortDescription": "Gerencie sua fila de campanhas",
-    "longDescription": "Para usuários do LucreShop que administram campanhas de ofertas. Entre no LucreShop e escolha o projeto e as permissões. Busque ofertas da Magalu na vitrine Magazine Você do perfil. Filtre ofertas, personalize mensagens e confira a prévia antes de importar. Veja o recibo e acompanhe a fila. Revise os itens antes de excluir ou reenviar. Use sua ferramenta de imagem para ambientar a foto do produto ou mostre e confirme uma imagem escolhida para substituir a foto na prévia ou na fila.",
+    "shortDescription": "Ofertas de afiliado na fila",
+    "longDescription": "Para afiliados que usam o LucreShop para enviar ofertas de marketplaces aos seus grupos e canais. Entre no LucreShop e escolha o projeto e as permissões. Prepare prévias de ofertas da Shopee, do Mercado Livre, da Amazon e da Magalu, personalize as mensagens e confira a prévia antes de importar para a fila da campanha. Veja o recibo e acompanhe a fila. Revise os itens antes de excluir ou reenviar. Use sua ferramenta de imagem para ambientar a foto do produto ou mostre e confirme uma imagem escolhida para substituir a foto na prévia ou na fila.",
     "developerName": "LucreShop",
     "category": "Productivity",
     "capabilities": [

@@ -1,0 +1,19 @@
+{
+  "name": "lucreshop",
+  "owner": {
+    "name": "LucreShop",
+    "email": "suporte@lucreshop.com.br"
+  },
+  "metadata": {
+    "description": "Plugins oficiais do LucreShop para Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "lucreshop-campanhas",
+      "source": "./",
+      "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+      "category": "productivity",
+      "homepage": "https://app.lucreshop.com.br/downloads/campanhas/guia.html"
+    }
+  ]
+}

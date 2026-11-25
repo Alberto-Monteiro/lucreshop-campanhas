@@ -4,7 +4,14 @@ Campanhas é o primeiro módulo do LucreShop para Claude. Use sua conta do Lucre
 
 ## Conectar
 
-No Claude Desktop, baixe o pacote para Claude e siga as instruções de instalação do guia. Para testar este repositório no Claude Code, execute `claude --plugin-dir ./lucreshop-campanhas` a partir da pasta que contém o repositório. [Guia de instalação](https://app.lucreshop.com.br/downloads/campanhas/guia.html)
+No Claude Desktop, baixe o pacote para Claude e siga as instruções de instalação do guia. [Guia de instalação](https://app.lucreshop.com.br/downloads/campanhas/guia.html)
+
+No Claude Code, adicione o marketplace do LucreShop e instale o plugin:
+
+```
+/plugin marketplace add Alberto-Monteiro/lucreshop-campanhas
+/plugin install lucreshop-campanhas@lucreshop
+```
 
 Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as permissões. Ative **Ofertas dos marketplaces** para preparar prévias e importar as ofertas escolhidas. Para desfazer um lote, a conexão também precisa de **Limpeza de fila**. Você pode consultar ou revogar o acesso no painel do LucreShop. [Conexões de IA](https://app.lucreshop.com.br/settings/conexoes-ia)
 

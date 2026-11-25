@@ -16,10 +16,13 @@ Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as 
 - “Mostre os itens que selecionei na fila de maternidade e aguarde minha confirmação antes de excluir.”
 - “Prepare o reenvio dos itens finalizados da campanha de maternidade. Mostre quantos voltariam à fila.”
 - “Prepare a ambientação da foto do item que escolhi. Gere somente o cenário com minha ferramenta de imagem e abra a comparação no LucreShop.”
+- “Mostre a foto atual e esta nova imagem lado a lado. Aguarde minha aprovação antes de trocar a foto.”
 
-A Magalu utiliza ofertas observadas no navegador do usuário. Para uma nova busca, abra uma sessão com acesso ao navegador. Uma prévia já salva pode ser consultada em outro chat pelo identificador.
+A busca da Magalu consulta a vitrine Magazine Você do projeto. Se houver verificação de acesso ou faltarem produtos, a prévia também aceita ofertas observadas no navegador. Uma prévia já salva pode ser consultada em outro chat pelo identificador.
 
 Para ambientar a foto, use uma ferramenta de imagem disponível na sua conta ou selecione um cenário que você já criou. O navegador compõe o recorte da foto atual com o cenário e mostra as duas versões. A imagem entra no item da fila quando você aprova no painel autenticado.
+
+Você também pode enviar uma imagem completa a partir da sua ferramenta, comparar com a foto atual e aprovar a troca em um produto da prévia ou em um item da fila que ainda não teve tentativa de envio. Para enviar pelo MCP, use PNG, JPEG ou WebP de até 10 MB e pelo menos 200 px por lado, como arquivo em Base64 ou link HTTPS direto. O LucreShop redimensiona a imagem para até 1.600 px e aplica a troca após sua confirmação. A troca em um item da fila requer **Gestão de campanhas**.
 
 ## Se a conexão pedir atenção
 

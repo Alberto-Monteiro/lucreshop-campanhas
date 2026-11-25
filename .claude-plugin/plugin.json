@@ -1,17 +1,17 @@
 {
-  "name": "lucreshop-campanhas",
+  "name": "lucreshop",
   "displayName": "LucreShop",
-  "version": "0.1.4",
-  "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+  "version": "0.2.0",
+  "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas, revisar a fila das campanhas e escolher as fotos das prévias e dos itens.",
   "author": {
     "name": "LucreShop",
     "email": "suporte@lucreshop.com.br",
     "url": "https://lucreshop.com.br"
   },
-  "homepage": "https://app.lucreshop.com.br/downloads/campanhas/guia.html",
+  "homepage": "https://app.lucreshop.com.br/downloads/plugin/guia.html",
   "icon": "./logo.png",
-  "documentationUrl": "https://app.lucreshop.com.br/downloads/campanhas/guia.html",
-  "supportUrl": "https://app.lucreshop.com.br/downloads/campanhas/guia.html#suporte",
+  "documentationUrl": "https://app.lucreshop.com.br/downloads/plugin/guia.html",
+  "supportUrl": "https://app.lucreshop.com.br/downloads/plugin/guia.html#suporte",
   "privacyPolicyUrl": "https://lucreshop.com.br/politica-de-privacidade",
   "termsOfServiceUrl": "https://lucreshop.com.br/termos-de-uso"
 }

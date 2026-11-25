@@ -1,7 +1,7 @@
 {
-  "name": "lucreshop-campanhas",
-  "version": "0.1.4",
-  "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+  "name": "lucreshop",
+  "version": "0.2.0",
+  "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas, revisar a fila das campanhas e escolher as fotos das prévias e dos itens.",
   "mcpServers": {
     "lucreshop": {
       "httpUrl": "https://api-lucreshop.rocksti.com.br/mcp"

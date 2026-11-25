@@ -9,11 +9,11 @@
   },
   "plugins": [
     {
-      "name": "lucreshop-campanhas",
+      "name": "lucreshop",
       "source": "./",
-      "description": "Selecione ofertas, revise a fila de campanhas e escolha quais fotos usar nas prévias e nos itens do LucreShop.",
+      "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas, revisar a fila das campanhas e escolher as fotos das prévias e dos itens.",
       "category": "productivity",
-      "homepage": "https://app.lucreshop.com.br/downloads/campanhas/guia.html"
+      "homepage": "https://app.lucreshop.com.br/downloads/plugin/guia.html"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "lucreshop-campanhas",
-  "version": "0.1.4",
-  "description": "Selecione ofertas de marketplaces e gerencie a fila de campanhas do seu projeto LucreShop.",
+  "name": "lucreshop",
+  "version": "0.2.0",
+  "description": "Conecte o LucreShop ao seu assistente de IA para selecionar ofertas de marketplaces e gerenciar a fila das campanhas.",
   "author": {
     "name": "LucreShop",
     "email": "suporte@lucreshop.com.br",

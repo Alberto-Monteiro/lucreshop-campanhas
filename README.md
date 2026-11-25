@@ -1,34 +1,34 @@
 # LucreShop
 
-Campanhas é o primeiro módulo do LucreShop para Claude. Use sua conta do LucreShop para escolher ofertas, revisar a fila e acompanhar importações nas campanhas do projeto autorizado.
+Plugin oficial do LucreShop para assistentes de IA. Use sua conta do LucreShop para trabalhar no projeto autorizado. Hoje o plugin cuida das campanhas de envio de ofertas: escolher ofertas, revisar a fila e acompanhar importações.
 
 ## Conectar
 
-No Claude Desktop, baixe o pacote para Claude e siga as instruções de instalação do guia. [Guia de instalação](https://app.lucreshop.com.br/downloads/campanhas/guia.html)
+No Claude Desktop, baixe o pacote para Claude e siga as instruções de instalação do guia. [Guia de instalação](https://app.lucreshop.com.br/downloads/plugin/guia.html)
 
 No Claude Code, adicione o marketplace do LucreShop e instale o plugin:
 
 ```
-/plugin marketplace add Alberto-Monteiro/lucreshop-campanhas
-/plugin install lucreshop-campanhas@lucreshop
+/plugin marketplace add Alberto-Monteiro/lucreshop-plugin
+/plugin install lucreshop@lucreshop
 ```
 
 No Codex, adicione o marketplace e instale **LucreShop** em `/plugins`:
 
 ```
-codex plugin marketplace add Alberto-Monteiro/lucreshop-campanhas
+codex plugin marketplace add Alberto-Monteiro/lucreshop-plugin
 ```
 
 No Gemini CLI, instale a extensão e entre com `/mcp auth lucreshop`:
 
 ```
-gemini extensions install https://github.com/Alberto-Monteiro/lucreshop-campanhas
+gemini extensions install https://github.com/Alberto-Monteiro/lucreshop-plugin
 ```
 
 No Antigravity CLI, instale o plugin e autentique o servidor do LucreShop em `/mcp`:
 
 ```
-agy plugin install https://github.com/Alberto-Monteiro/lucreshop-campanhas
+agy plugin install https://github.com/Alberto-Monteiro/lucreshop-plugin
 ```
 
 Abra a conexão **lucreshop** e entre no LucreShop para escolher o projeto e as permissões. Ative **Ofertas dos marketplaces** para preparar prévias e importar as ofertas escolhidas. Para desfazer um lote, a conexão também precisa de **Limpeza de fila**. Você pode consultar ou revogar o acesso no painel do LucreShop. [Conexões de IA](https://app.lucreshop.com.br/settings/conexoes-ia)
@@ -51,4 +51,4 @@ Você também pode enviar uma imagem completa a partir da sua ferramenta, compar
 
 ## Se a conexão pedir atenção
 
-Se o projeto esperado não aparecer, confira qual projeto foi autorizado em **Conexões de IA**. Se a autorização terminar em erro, registre o horário e o nome da ferramenta para que o suporte identifique o pedido. [Suporte LucreShop](https://app.lucreshop.com.br/downloads/campanhas/guia.html#suporte)
+Se o projeto esperado não aparecer, confira qual projeto foi autorizado em **Conexões de IA**. Se a autorização terminar em erro, registre o horário e o nome da ferramenta para que o suporte identifique o pedido. [Suporte LucreShop](https://app.lucreshop.com.br/downloads/plugin/guia.html#suporte)
